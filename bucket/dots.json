@@ -1,0 +1,32 @@
+{
+    "version": "2.0.0",
+    "description": "dotnet sdk版本管理工具",
+    "homepage": "https://h3y.studio/dots/",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/nor0x/Dots/releases/download/2.0.0/Dots-2.0.0-win-x64.zip",
+            "hash": "87ad18d71f2987dcdcd2e1768cd981d6cee325eec2c1cdbbd5b37e3ffd0a2597",
+            "extract_dir":"Dots-2.0.0-win-x64"
+        }
+    },
+    "bin": "dots.exe",
+    "checker":{
+        "github": "https://github.com/nor0x/Dots",
+        "regex":"(?:[\\d.]+)/Dots-(?<version>[\\d.]+)-win-x64\\.zip",
+        "replace":"${version}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url":"https://github.com/nor0x/Dots/releases/download/$matchVersion/Dots-$matchVersion-win-x64.zip",
+                "extract_dir": "Dots-$matchVersion-win-x64"
+            }
+        }
+    },
+    "shortcuts": [
+        [
+            "dotnet-vm.exe",
+            "dotnet-vm"
+        ]
+    ]
+ }
