@@ -11,8 +11,6 @@
         "replace": "${version}"
     },
     "autoupdate": {
-        "url": "https://github.com/nor0x/Dots/releases/download/$matchVersion/Dots-$matchVersion-win-x64.zip",
-        "extract_dir": "Dots-$matchVersion-win-x64"
-    },
-    "shortcuts": [["dotnet-vm.exe", "dotnet-vm"]]
+        "url": "https://github.com/nor0x/Dots/releases/download/$matchVersion/Dots-$matchVersion-win-x64.zip"
+    }
 }
