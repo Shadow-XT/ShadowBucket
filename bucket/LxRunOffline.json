@@ -2,15 +2,7 @@
     "version": "3.5.0",
     "description": "用于管理Windows上的Linux子系統（WSL）的实用应用程序",
     "homepage": "https://github.com/DDoSolitary/LxRunOffline",
-    "url": "https://github.com/DDoSolitary/LxRunOffline/releases/download/v3.5.0/LxRunOffline-v3.5.0-msvc.zip",
+    "url": "https://ddosolitary-builds.sourceforge.io/LxRunOffline/LxRunOffline-v3.5.0-11-gfdab71a-msvc.zip",
     "hash": "595f1a0da834d37d7fff68376d5bce52084385c9933ef25851aa2b89313092ec",
-    "bin": "LxRunOffline.exe",
-    "checker": {
-        "github": "https://github.com/DDoSolitary/LxRunOffline",
-        "regex": "v(?:[\\d.]+)/LxRunOffline-v(?<version>[\\d.]+)-msvc\\.zip",
-        "replace": "${version}"     
-    },
-    "autoupdate": {
-        "url": "https://github.com/DDoSolitary/LxRunOffline/releases/download/v$matchVersion/LxRunOffline-v$matchVersion-msvc.zip"
-    }
+    "bin": "LxRunOffline.exe"
 }
