@@ -4,7 +4,7 @@
     "homepage": "https://couchbase.sh/",
     "url": "https://github.com/couchbaselabs/couchbase-shell/releases/download/v0.75.2/cbsh-x86_64-pc-windows-msvc.zip",
     "hash": "0d35f08943301398739e285380a10376543b85a3dc689a76899f70e2d12cf537",
-    "bin": "chsh.exe",
+    "bin": "cbsh.exe",
     "checker": {
         "github": "https://github.com/couchbaselabs/couchbase-shell",
         "regex": "v(?<version>[\\d.]+)\\cbsh-x86_64-pc-windows-msvc.zip",
