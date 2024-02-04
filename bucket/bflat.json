@@ -6,7 +6,7 @@
     "hash": "0d35f08943301398739e285380a10376543b85a3dc689a76899f70e2d12cf537",
     "bin": "bflat.exe",
     "checker": {
-        "github": "https://github.com/nor0x/Dots",
+        "github": "https://github.com/bflattened/bflat",
         "regex": "v(?:[\\d.]+)/bflat-(?<version>[\\d.]+)-windows-x64\\.zip",
         "replace": "${version}"
     },
