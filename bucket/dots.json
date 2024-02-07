@@ -12,5 +12,11 @@
     },
     "autoupdate": {
         "url": "https://github.com/nor0x/Dots/releases/download/$matchVersion/Dots-$matchVersion-win-x64.zip"
-    }
+    },
+    "shortcuts": [
+        [
+            "Typora.exe",
+            "Typora"
+        ]
+    ]
 }
