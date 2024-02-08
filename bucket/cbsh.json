@@ -2,15 +2,15 @@
     "version": "0.75.2",
     "description": "Couchbase Shell 功能齐全，因此它不仅包含与 couchbase 相关的命令，而且实际上构建在称为 nushell 的通用 shell 之上",
     "homepage": "https://couchbase.sh/",
+    "license": "Unknown",
     "url": "https://github.com/couchbaselabs/couchbase-shell/releases/download/v0.75.2/cbsh-x86_64-pc-windows-msvc.zip",
-    "hash": "e890a5332442486864f4fcf04d3eaf47ede40b24699ae5b32c9df258d692c835",
+    "hash": "74097d548f08343f32bada0842108bc70bd99df5169c717fc78acce98c92c6ea",
     "bin": "cbsh.exe",
-    "checker": {
+    "checkver": {
         "github": "https://github.com/couchbaselabs/couchbase-shell",
-        "regex": "v(?<version>[\\d.]+)\\cbsh-x86_64-pc-windows-msvc.zip",
-        "replace": "${version}"
+        "regex": "Release\\s+v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/couchbaselabs/couchbase-shell/releases/download/v$matchVersion/cbsh-x86_64-pc-windows-msvc.zip"
+        "url": "https://github.com/couchbaselabs/couchbase-shell/releases/download/v$version/cbsh-x86_64-pc-windows-msvc.zip"
     }
 }
