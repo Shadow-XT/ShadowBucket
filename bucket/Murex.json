@@ -13,8 +13,5 @@
             "extract_dir": "bin"
         }
     },
-    "bin": [
-        "murex.exe", 
-        "murex"
-    ]
+    "bin": "murex-6-windows-amd64.exe"
 }
