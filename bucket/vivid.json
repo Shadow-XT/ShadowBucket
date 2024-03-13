@@ -1,0 +1,23 @@
+{
+    "version": "0.9.0",
+    "description": "Vivid 是 LS_COLORS 环境变量的生成器，用于控制 ls、tree、fd、bfs、dust 和许多其他工具的彩色输出。",
+    "homepage": "https://github.com/sharkdp/vivid",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/sharkdp/vivid/blob/master/LICENSE-MIT"
+    },
+    "url": "https://github.com/sharkdp/vivid/releases/download/v0.9.0/vivid-v0.9.0-x86_64-pc-windows-gnu.zip",
+    "hash": "8b339efdf94eb67a5279ee64a97792c2b5970188503afe424cd7bf7383bd966f",
+    "extract_dir": "vivid-v0.9.0-x86_64-pc-windows-gnu",
+    "bin": [
+        [
+            "vivid.exe",
+            "vivid"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/sharkdp/vivid/releases/download/v$version/vivid-v$version-x86_64-pc-windows-gnu.zip",
+        "extract_dir": "vivid-v$version-x86_64-pc-windows-gnu"
+    }
+}

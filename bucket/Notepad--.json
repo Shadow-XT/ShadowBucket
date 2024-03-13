@@ -1,0 +1,25 @@
+{
+    "homepage": "https://gitee.com/cxasm/notepad--",
+    "license": "GPL-3.0-or-later",
+    "version": "2.14.0",
+    "url": "https://github.com/cxasm/notepad--/releases/download/notepad-v2.14/Notepad--v2.14.0-win10-portable.zip",
+    "hash": "b2d3ad5e64247e44c9c903bedd4b8e711640e5e1af5d632cc6fd2a01a2898890",
+    "pre_install": [
+        "Move-Item \"$dir\\notepad--v$version-win10-portable\\*\" \"$dir\"",
+        "Remove-Item \"$dir\\notepad--v$version-win10-portable\" -Force -Recurse"
+    ],
+    "bin": "Notepad--.exe",
+    "shortcuts": [
+        [
+            "Notepad--.exe",
+            "Notepad--"
+        ]
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repos/cxasm/notepad--/releases/latest",
+        "regex": "Notepad--[vV]?(\\d+\\.\\d+\\.\\d+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/cxasm/notepad--/releases/download/notepad-v$majorVersion.$minorVersion/Notepad--v$version-win10-portable.zip"
+    }
+}

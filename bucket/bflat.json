@@ -2,7 +2,10 @@
     "version": "8.0.2",
     "description": "bflat是Roslyn和NativeAOT(née CoreRT)的混合体，前者是生成.NET可执行文件的“官方”C# 编译器，后者是基于CoreCLR 的.NET预编译器",
     "homepage": "https://github.com/bflattened/bflat",
-    "license": "Unknown",
+    "license": {
+        "identifier": "GPL-3.0",
+        "url": "https://github.com/bflattened/bflat/blob/master/LICENSE"
+    },
     "url": "https://github.com/bflattened/bflat/releases/download/v8.0.2/bflat-8.0.2-windows-x64.zip",
     "hash": "25b03214c6085607ec2ec5fc86139c93e054edd60266296e708f763455961e7e",
     "bin": "bflat.exe",
