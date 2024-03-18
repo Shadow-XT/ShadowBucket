@@ -1,0 +1,17 @@
+{
+    "version": "1.7",
+    "description": "扫描国内可用的谷歌翻译IP",
+    "homepage": "https://github.com/Ponderfly/GoogleTranslateIpCheck",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/Ponderfly/GoogleTranslateIpCheck/blob/master/LICENSE.txt"
+    },
+    "url": "https://github.com/Ponderfly/GoogleTranslateIpCheck/releases/download/1.7/win-x64.zip",
+    "hash": "471bc3976fc050bb46e83b1a8dafc61c618eb056d4e8f02a86aa4ac6157a277e",
+    "extract_dir": "win-x64",
+    "bin": "GoogleTranslateIpCheck.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/Ponderfly/GoogleTranslateIpCheck/releases/download/$version/win-x64.zip"
+    }
+}
