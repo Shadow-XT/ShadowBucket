@@ -1,0 +1,19 @@
+{
+    "version": "6.5.6",
+    "description": "100% libre（free） linux kernel",
+    "homepage": "https://github.com/zhenruyan/WSL-libre-linux-kernel",
+    "license": {
+        "identifier": "GPL-3.0-only",
+        "url": "https://github.com/zhenruyan/WSL-libre-linux-kernel/blob/master/LICENSE"
+    },
+    "url": "https://github.com/zhenruyan/WSL-libre-linux-kernel/releases/download/bin/6.5.6-gnu-gb712ed2e87e0/vmlinuxv6.5.6-gnu.zip",
+    "hash": "f43975f2e564dd1aaf55e658df3e2f818ba11873f97ef08dab0d1bbf1ab7d07f",
+    "checkver": {
+        "url": "https://api.github.com/repos/zhenruyan/WSL-libre-linux-kernel/releases/latest",
+        "jsonpath": "$..assets[2].browser_download_url",
+        "regex": "bin/(?<version>.+?)/vmlinuxv(?<tag>([\\d.]+))-gnu.zip"
+    },
+    "autoupdate": {
+        "url": "https://github.com/zhenruyan/WSL-libre-linux-kernel/releases/download/bin/$matchVersion/vmlinuxv$matchTag-gnu.zip"
+    }
+}
